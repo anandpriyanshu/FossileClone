@@ -1,0 +1,443 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Bricolage+Grotesque:opsz@12..96&family=Fjalla+One&family=Gabarito&family=Inter&family=Josefin+Sans&family=Lato&family=Lexend&family=Montserrat&family=Open+Sans:wght@300&family=PT+Sans&family=Poppins:wght@300&family=Roboto+Condensed:wght@300;400&family=Roboto+Mono&family=Roboto:wght@100;300;400&family=Russo+One&family=Stylish&family=Yantramanav&family=Young+Serif&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+.free {
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 9px;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.flag p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.flag {
+  margin-right: 30px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  column-gap: 20px;
+  height: 40px;
+}
+
+.flag img {
+  width: 19px;
+}
+
+.flag #lock i {
+  font-size: 25px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+}
+
+.logo img {
+  margin-left: 8px;
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.nav-content a {
+  font-size: 14px;
+  color: black;
+  font-weight: 900;
+}
+
+.nav-content a:hover {
+  text-decoration: underline;
+}
+
+.nav-content a {
+  text-decoration: none;
+}
+
+.hamburger {
+  display: none; /*flex*/
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.hamburger div {
+  width: 40px;
+  background-color: black;
+  height: 7px;
+}
+
+.nav-content2 {
+  display: none; /* grid */
+  justify-content: start;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  left: 600px;
+  row-gap: 60px;
+  background-color: black;
+}
+
+.nav-content2 a {
+  text-decoration: none;
+  color: gray;
+  font-size: 40px;
+}
+
+.video {
+  width: 100%;
+  height: 900px;
+  background-image: url("/Projects/FossileClone/images/vidimag.jpg");
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-bottom: 8px solid white;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.video .write-content {
+  margin-left: 500px;
+}
+
+.video .write-content h2 {
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 7px;
+}
+
+.write-content button {
+  padding: 10px 40px;
+  border-radius: 50px;
+}
+.write-content button:hover {
+  background-color: black;
+  color: white;
+}
+
+.star-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.star-image .kirti {
+  width: 845px;
+  height: 850px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("/Projects/FossileClone/images/kirti.avif");
+}
+.star-image .watch {
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  text-align: center;
+  width: 845px;
+  height: 850px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("/Projects/FossileClone/images/watch.avif");
+}
+.star-image .watch-content {
+  margin-top: 50px;
+}
+.star-image .watch-content p {
+  color: white;
+}
+.star-image .watch-content button {
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+.star-image .watch-content button:hover {
+  background-color: black;
+  color: white;
+}
+
+.star-image .watch2 {
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  text-align: center;
+  width: 845px;
+  height: 850px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("/Projects/FossileClone/images/watch2.avif");
+}
+
+.star-image .varun {
+  width: 845px;
+  height: 850px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("/Projects/FossileClone/images/varun.avif");
+}
+
+.star-image .purse1 {
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  text-align: center;
+  width: 845px;
+  height: 850px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("/Projects/FossileClone/images/purse1.avif");
+}
+.star-image .purse2 {
+  width: 845px;
+  height: 850px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("/Projects/FossileClone/images/purse2.avif");
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.star-image .chain1 {
+  width: 845px;
+  height: 850px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("/Projects/FossileClone/images/chain1.avif");
+}
+.star-image .chain2 {
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  text-align: center;
+  width: 845px;
+  height: 850px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("/Projects/FossileClone/images/chain2.avif");
+}
+
+.chain2 .watch-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.people {
+  width: 100%;
+  height: 800px;
+  background-image: url("/Projects/FossileClone/images/prople.avif");
+  background-position: center;
+  background-size: cover;
+}
+
+.likha {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  line-height: 60px;
+}
+.likha p {
+  font-size: 28px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 8px;
+}
+.likha h2 {
+  font-size: 46px;
+  letter-spacing: 8px;
+}
+
+.likha a {
+  /* text-decoration: none; */
+  color: white;
+  font-weight: 900;
+}
+
+.likha button {
+  padding: 13px 40px;
+  border-radius: 50px;
+}
+.likha button:hover {
+  background-color: black;
+  color: white;
+}
+
+@keyframes movenavbar2 {
+  from {
+    display: none;
+    left: 600px;
+  }
+  to {
+    display: grid;
+    left: 0px;
+    justify-content: center;
+  }
+}
+
+.category {
+  margin: 50px 100px;
+}
+
+.link {
+  margin-top: 20px;
+}
+
+.link a {
+  border: 1px solid black;
+  padding: 10px 60px;
+  text-decoration: none;
+  border: 2px solid black;
+  color: black;
+  font-weight: 900;
+  /* margin-left: 2px; */
+}
+
+.link a:hover {
+  background-color: black;
+  color: white;
+}
+
+.border {
+  width: 80%;
+  margin: 0px auto;
+  border-top: 5px solid black;
+}
+
+.foot-content {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 500px;
+}
+
+.foot1 {
+  width: 400px;
+  height: 450px;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-self: start;
+  align-items: start;
+  margin-right: 50px;
+}
+.foot1 h3 {
+  font-size: 20px;
+}
+
+.foot1 input {
+  padding: 10px 90px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.foot1 button {
+  padding: 8px 60px;
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+}
+
+.foot1 button:hover {
+  cursor: pointer;
+}
+
+#column h3 {
+  padding-bottom: 15px;
+}
+
+#column ul li {
+  list-style: none;
+  padding-bottom: 15px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.social a {
+  color: black;
+}
+
+#column p {
+  font-weight: 900;
+  text-align: center;
+  padding: 10px;
+  width: 40%;
+  height: 20px;
+  border: 3px solid black;
+}
+
+#column p:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1100px) {
+  .free {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .flag,
+  .nav-content {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .star-image {
+    flex-wrap: wrap;
+  }
+  .category .link {
+    row-gap: 30px;
+    flex-wrap: wrap;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .shop h3 {
+    text-align: center;
+  }
+
+  .foot-content {
+    margin-top: 10px;
+    flex-wrap: wrap;
+    height: 180vh;
+    /* display: grid;
+    justify-content: center;
+    align-items: center; */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .likha p,
+  .likha h2 {
+    display: none;
+  }
+}
